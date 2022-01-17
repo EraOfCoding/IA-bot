@@ -20,7 +20,7 @@ while(1):
     listener.join()
 
     wsh = comclt.Dispatch("WScript.Shell")
-    wsh.AppActivate('''Meeting in "General"''')
+    wsh.AppActivate('''Meeting''')
 
     mixer.init()
     mixer.music.load("yes.mp3")
