@@ -4,9 +4,6 @@ from pygame import mixer
 from pynput import keyboard
 import time
 
-global play
-play = False
-
 
 def on_press(key):
     try:
@@ -14,7 +11,6 @@ def on_press(key):
     except:
         k = key.name
     if k == '-':
-        play = True
         return False
 
 
